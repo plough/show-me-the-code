@@ -1,7 +1,9 @@
 ## 心得
 
 使用uuid模块生成随机数。随机uuid的重复几率极小，可忽略，适合作为激活码。这里使用uuid4()。
+
 详见[维基百科](https://zh.wikipedia.org/wiki/通用唯一识别码)
+
 以下为uuid模块说明（help(uuid)）
 
 > This module provides immutable UUID objects (class UUID) and the functions
